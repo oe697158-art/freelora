@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import { FaHome, FaUsers, FaChartBar } from 'react-icons/fa'
 
-const API = 'http://localhost:5000/clients'
-
+const API = '/api/clients'
 function App() {
   const [clients, setClients] = useState([])
   const [name, setName] = useState('')
